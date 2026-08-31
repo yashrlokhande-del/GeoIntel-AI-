@@ -1,0 +1,38 @@
+GeoIntel-AI/
+│
+├── app/
+│   ├── dashboard.py          # Streamlit UI
+│   └── components/
+│
+├── core/
+│   ├── scoring.py            # Geopolitical risk model
+│   ├── scenarios.py          # Scenario engine
+│   ├── confidence.py         # Confidence calculation
+│   └── methodology.py
+│
+├── data/
+│   ├── countries.py
+│   ├── relationships.py
+│   └── sample_events.py
+│
+├── ingestion/
+│   ├── worldbank.py
+│   ├── ucdp.py
+│   ├── gdelt.py
+│   └── reliefweb.py
+│
+├── ai/
+│   ├── analyst.py             # LLM analysis
+│   ├── retrieval.py           # RAG
+│   └── prompts.py
+│
+├── database/
+│   ├── schema.sql
+│   └── models.py
+│
+├── tests/
+│
+├── requirements.txt
+├── .env.example
+├── README.md
+└── run.py
